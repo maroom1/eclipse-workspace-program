@@ -1,0 +1,63 @@
+
+package Lab8; //change package name
+
+/**
+ * Program Name:    FractionCA62.java
+ * Discussion:      class FractionCA62
+ * Written By:      Amit Chojar
+ * Date:            2016/02/20
+ */
+import java.lang.Object;
+import java.util.Scanner;
+
+public class FractionCA62 {
+    private int num; //data or attribute or field member
+    private int denom;
+    
+    public FractionCA62() {
+    	num=9;
+        denom = 5;        
+    } 
+    
+    //convert constructor
+    public FractionCA62(int n) {
+        this.num = n; //has 1 argument
+        this.denom = 1;        
+    } 
+    public FractionCA62(int n, int d) {
+        if(d>0 && n>d ){
+            num = n;
+            denom = d; 
+        }
+        else if(d<0 && n>d ){
+            num = -n;
+            denom = -d;
+        } else {
+            while(d==0) {
+                Scanner input = new Scanner(System.in);
+                System.out.println("\n d is 0:  not accepted: " +
+                                    "Re-enter value for d: ");
+                d = input.nextInt();
+            }
+        }
+    } 
+    
+    //getter method
+    public int getNum() {
+        return num;
+    }
+    
+    public int getDenom() {
+        return denom;
+    }
+    
+    public void setNum(int n) {
+        num = n;
+    }
+    
+    //method member
+    public void printSubstraction(FractionCA62 that) {
+        System.out.println(num * that.denom - denom * that.num + "/" +
+                            denom * that.denom);
+    }
+}
