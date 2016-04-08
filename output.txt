@@ -1,0 +1,94 @@
+C:\Users\YalamandaRao\workspace>git remote add origin https://github.com/maroom1
+/eclipse-workspace-program.git
+
+C:\Users\YalamandaRao\workspace>git push -u origin master
+Username for 'https://github.com': maroom1
+Password for 'https://maroom1@github.com':
+Counting objects: 845, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (727/727), done.
+Writing objects: 100% (845/845), 6.87 MiB | 527.00 KiB/s, done.
+Total 845 (delta 226), reused 0 (delta 0)
+To https://github.com/maroom1/eclipse-workspace-program.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\YalamandaRao\workspace>doskey /history cmd.txt
+Invalid macro definition.
+git init
+git add .
+echo "# eclipse-workspace-program" >> README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/maroom1/eclipse-workspace-program.git
+git push -u origin master
+doskey /history cmd.txt
+
+C:\Users\YalamandaRao\workspace>doskey /history > cmd.txt
+
+C:\Users\YalamandaRao\workspace>git commit -m "first 2 commit"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+        cmd.txt
+
+nothing added to commit but untracked files present
+
+C:\Users\YalamandaRao\workspace>git push -u origin master
+Username for 'https://github.com': maroom1
+Password for 'https://maroom1@github.com':
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+
+C:\Users\YalamandaRao\workspace>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        cmd.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\YalamandaRao\workspace>git commit -m "first 2 commit"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+        cmd.txt
+
+nothing added to commit but untracked files present
+
+C:\Users\YalamandaRao\workspace>git add cmd.txt
+
+C:\Users\YalamandaRao\workspace>git commit -m "first 2 commit"
+[master cafcb38] first 2 commit
+ 1 file changed, 9 insertions(+)
+ create mode 100644 cmd.txt
+
+C:\Users\YalamandaRao\workspace>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+C:\Users\YalamandaRao\workspace>git push -u origin master
+Username for 'https://github.com': maroom1
+Password for 'https://maroom1@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 431 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/maroom1/eclipse-workspace-program.git
+   ca24962..cafcb38  master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\YalamandaRao\workspace>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+C:\Users\YalamandaRao\workspace>dir
+
+dir
+
