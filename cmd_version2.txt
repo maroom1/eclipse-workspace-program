@@ -1,0 +1,50 @@
+git commit -m
+git commit -m "hghjg"
+git push -u origin master
+doskey /history > cmd_version2.txt
+cat > midify_test.txt
+copy con > modify_test.txt
+this is the modifications files which is used to test every time
+
+
+
+
+dir
+rm midify_test.txt
+rmdir midify_test.txt
+remove midify_test.txt
+del midify_test.txt
+dir
+git status
+git commit 
+copy con modify_test2.txt
+this is another files to test
+
+dir
+git status
+git status -s
+git add --no-all
+git add -A
+git status
+git add -f modify_test.txt
+git status
+git commit -m "final test"
+git status
+git push -m origin master
+git push -u origin master
+git status -s
+git status -help
+git status -v
+git status --ignored
+git status --column
+git status -s
+echo "jhjghjv " > modify_test2.txt
+git status -s
+git commit 
+git add -help
+git add -n
+git add -v
+git add -v modify_test2.txt
+git status -s
+git status -n modify_test2.txt
+git commit
