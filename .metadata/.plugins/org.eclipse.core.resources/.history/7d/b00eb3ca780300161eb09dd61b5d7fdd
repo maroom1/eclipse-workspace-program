@@ -1,0 +1,3 @@
+object testbed {
+  println("Welcome to the Scala worksheet")
+}
